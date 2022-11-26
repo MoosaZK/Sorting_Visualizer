@@ -11,15 +11,15 @@ $no_algos: 6;
     margin: 0px;
     padding: 0px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: large;
+    font-size: medium;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 nav
 {
-    background-color: rgb(59, 58, 58);
-    color: white;
+    background-color: black;
+    color: lightgrey;
     display: grid;
     grid-template-columns: 30% 60%;
     column-gap: 10%;
@@ -62,7 +62,7 @@ nav
         {
             display: inline-block;
             //text-align: center;
-            font-size: xxx-large;
+            // font-size: ;
             padding: 3% 0%;
         }
         .algos
@@ -78,7 +78,6 @@ nav
                 color: white;
                 outline: none;
                 padding: 5% 0%;
-                font-size: x-large;
                 &:hover
                 {
                     background-color: blue;

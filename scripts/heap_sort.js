@@ -34,8 +34,8 @@ function swap(i,j)
     div_update(divs[i],div_sizes[i],"red");//Height update
     div_update(divs[j],div_sizes[j],"red");//Height update
 
-    div_update(divs[i],div_sizes[i],"blue");//Color update
-    div_update(divs[j],div_sizes[j],"blue");//Color update
+    div_update(divs[i],div_sizes[i],"turquoise");//Color update
+    div_update(divs[j],div_sizes[j],"turquoise");//Color update
 }
 
 function max_heapify(n,i)
@@ -48,7 +48,7 @@ function max_heapify(n,i)
     {
         if(largest!=i)
         {
-            div_update(divs[largest],div_sizes[largest],"blue");//Color update
+            div_update(divs[largest],div_sizes[largest],"turquoise");//Color update
         }
 
         largest=l;
@@ -60,7 +60,7 @@ function max_heapify(n,i)
     {
         if(largest!=i)
         {
-            div_update(divs[largest],div_sizes[largest],"blue");//Color update
+            div_update(divs[largest],div_sizes[largest],"turquoise");//Color update
         }
 
         largest=r;
@@ -91,7 +91,7 @@ function heap_sort()
 
         max_heapify(i,0);
 
-        div_update(divs[i],div_sizes[i],"blue");//Color update
+        div_update(divs[i],div_sizes[i],"turquoise");//Color update
         div_update(divs[i],div_sizes[i],"green");//Color update
     }
     div_update(divs[i],div_sizes[i],"green");//Color update
